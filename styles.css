@@ -1,0 +1,115 @@
+/* Configuração CSS Geral*/
+body {
+    padding: 0em;
+    margin: 0em;
+    width: auto;
+    background-color: #35424A;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+h1{
+    color: antiquewhite;
+}
+.container{
+    flex-direction: column;
+    display: flex;
+    color: antiquewhite;
+    width: 100%;
+    border: solid 0.2em black;
+}
+
+/* cabecalho */
+.cabecalho {
+    display: flex;
+    width: 100%;
+    padding: 0.2em;
+    margin: auto;
+    flex: 1;
+    justify-content: center;
+    background-color: #1F2833;
+    
+}
+
+
+
+.logo-img{
+    max-width: 40%;
+    flex: 1;
+    padding-left: 6em;
+}
+.nav-bar{
+    max-width: 60%;
+    flex: 1;
+    padding-left: 3em;
+}
+/*seção*/
+.main{
+    display: flex;  
+    flex-direction: column;  
+    width: 100%;    
+    padding: 0.2em;    
+    flex: 1;
+   
+    
+}
+.form {
+    padding: 0.2em;    
+    flex: 1;
+    width: 100%;
+   
+    
+}
+.tblContato {
+    padding: 0.2em;
+    flex: 1;    
+   
+}
+.tabela {
+    width: 100%;
+    align-items: center;
+    background-color: #1F2833;
+    
+    
+}
+/* Lista */
+ul {
+    list-style-type: none;
+}
+.form ul {
+    display: flex; 
+    justify-content: center;
+}
+li {
+    padding: 0.3em;
+    margin: 0.2em;
+    unicode-bidi: normal;
+}
+/*inputs e button */
+input {
+    text-align: center;
+    padding: 0.2em;
+    border: solid 0.3em black;
+}
+button {
+    border-radius: 0.3em;
+    padding: 0.4em;
+    background-color: green;
+}
+#inputA{
+    width: 500px;
+}
+#inputB {
+    width: 200px;
+}
+/*tabela*/
+
+th {
+    border: solid 0.2em black;
+    
+}
+
+tbody, td {
+    text-align: center;
+    padding: 1em;
+}
